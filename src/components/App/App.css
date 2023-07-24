@@ -1,0 +1,10 @@
+.app {
+  width: 1025px;
+  margin: 0 auto;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.hover {
+  background: #f7f9fd;
+}

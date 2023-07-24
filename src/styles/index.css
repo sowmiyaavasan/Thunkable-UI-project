@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  font-family: "regular";
+  letter-spacing: 0.8px;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #fff;
+}

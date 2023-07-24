@@ -1,0 +1,30 @@
+.item-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 800px;
+  height: 70px;
+  margin: 0 auto;
+  background: #fdfdfd;
+  border-top: 1px solid #0000001a;
+  border-bottom: 1px solid #0000001a;
+
+  .beaver-icon {
+    margin-left: 24px;
+    margin-right: 25px;
+  }
+}
+
+.form-input {
+  border-radius: 2px;
+  border: 1px solid #40a9ff;
+  width: 186px;
+  height: 30px;
+  font-size: 16px;
+  padding-left: 6px;
+}
+input::placeholder {
+  color: #00000066;
+  padding-left: 8px;
+}

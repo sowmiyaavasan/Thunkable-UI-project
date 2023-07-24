@@ -1,0 +1,42 @@
+.list-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  width: 800px;
+  height: 70px;
+  margin: 0 auto;
+  background: #fdfdfd;
+  border-top: 1px solid #0000001a;
+  border-bottom: 1px solid #0000001a;
+
+  .beaver-icon {
+    margin-left: 24px;
+    margin-right: 25px;
+  }
+}
+
+.project-list {
+  .project-item-inner {
+    width: 720px;
+    display: grid;
+    grid-template-columns: 150px 150px 350px auto;
+  }
+
+  .form-input {
+    z-index: 3;
+  }
+
+  .project-title {
+    font-size: 20px;
+    font-family: "semibold";
+  }
+
+  .date {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 14px;
+    color: #00000080;
+  }
+}
